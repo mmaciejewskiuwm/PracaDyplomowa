@@ -1,0 +1,33 @@
+Scenariusz 1: Rejestracja nowego użytkownika
+Aktor: Nowy użytkownik
+Warunki początkowe: Użytkownik otwiera stronę główną.
+Kroki:
+-Użytkownik klika przycisk "Rejestracja".
+-Użytkownik wypełnia formularz rejestracyjny (nazwa, e-mail, hasło).
+-Użytkownik zatwierdza rejestrację.
+-System wysyła e-mail weryfikacyjny.
+-Użytkownik klika link weryfikacyjny w e-mailu.
+-Konto użytkownika jest aktywowane.
+Warunki końcowe: Użytkownik ma aktywne konto i może się zalogować.
+
+Scenariusz 2: Tworzenie nowego turnieju
+Aktor: Zalogowany organizator
+Warunki początkowe: Użytkownik jest zalogowany i znajduje się na stronie głównej.
+Kroki:
+-Użytkownik wybiera opcję "Zarządzanie Turniejami".
+-Użytkownik klika przycisk "Nowy Turniej".
+-Użytkownik wypełnia formularz turniejowy (nazwa, data, lokalizacja, zasady).
+-Użytkownik zatwierdza tworzenie turnieju.
+Warunki końcowe: Nowy turniej jest dodany do listy turniejów.
+
+Scenariusz 3: Zakup produktu w sklepie
+Aktor: Zalogowany użytkownik
+Warunki początkowe: Użytkownik jest zalogowany i znajduje się na stronie głównej.
+Kroki:
+-Użytkownik wybiera opcję "Sklep".
+-Użytkownik przegląda dostępne produkty.
+-Użytkownik dodaje wybrany produkt do koszyka.
+-Użytkownik przechodzi do kasy.
+-Użytkownik wprowadza dane do płatności i zatwierdza zakup.
+-System potwierdza zakup i wysyła potwierdzenie na e-mail użytkownika.
+Warunki końcowe: Użytkownik dokonuje zakupu, a produkt jest zamówiony.
